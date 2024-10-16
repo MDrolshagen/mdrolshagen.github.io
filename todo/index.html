@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob der Baumeister</title>
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <canvas id="canvas" style="border: 1px solid">Animation creating milti-colored disappearing stream of light that
+        follow the curos as it moves over the image
+    </canvas>
+
+    <div class="container">
+
+        <table width="100%">
+            <tr>
+                <td>
+                    <p id="open-tasks-count">Offene Aufgaben: 0</p>
+
+                </td>
+                <td align="right">
+
+                    <p id="done-tasks-count">% bearbeitet</p>
+                </td>
+            </tr>
+        </table>
+
+
+        <div class="list">
+
+
+            <h1>ToDo Liste</h1>
+            <div class="todo-form">
+                <input class="input-line" type="text" id="new-task" placeholder="Neue Aufgabe eingeben...">
+                <button id="add-task-btn">Hinzufügen</button>
+            </div>
+            <ul id="task-list"></ul>
+        </div>
+
+
+        <table width="100%">
+            <tr>
+                <td>
+
+<div id="export-task-btn">Aufgaben in die Zwischenablage kopieren</div>
+                </td>
+                <td align="right">
+
+                    <a class="back-lnk" href="../index.html">zurück</a>
+                </td>
+            </tr>
+        </table>
+
+        
+        
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
