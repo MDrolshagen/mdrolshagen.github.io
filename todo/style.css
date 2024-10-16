@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     cursor: default;
-    background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), rgb(56, 113, 146), rgb(22, 22, 22)) no-repeat 0 0
+    background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), #3990af, #13313b) no-repeat 0 0
 }
 .back-lnk {
     top: 10%;
