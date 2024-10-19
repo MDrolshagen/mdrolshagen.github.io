@@ -22,7 +22,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
     width: 60%;
-    animation: reloadContainer 0.8s ease;
+    animation: reloadContainer 0.7s ease;
     margin: 40px;
     max-height: 90%;
     overflow-y: scroll;
